@@ -43,7 +43,6 @@ target="index_files/props013.xml">
  <w:WordDocument>
   <w:DisplayBackgroundShape/>
   <w:EmbedTrueTypeFonts/>
-  <w:SpellingState>Clean</w:SpellingState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -647,7 +646,7 @@ target="index_files/props013.xml">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;
 	mso-font-src:1;}
 @font-face
 	{font-family:Calibri;
@@ -655,7 +654,7 @@ target="index_files/props013.xml">
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-520092929 1073786111 9 0 415 0;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;
 	mso-font-src:2;}
 @font-face
 	{font-family:Verdana;
@@ -743,7 +742,8 @@ h1
 	font-weight:bold;
 	mso-bidi-font-weight:normal;}
 h2
-	{mso-style-priority:1;
+	{mso-style-noshow:yes;
+	mso-style-priority:1;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	margin-top:.25in;
@@ -1411,7 +1411,8 @@ p.MsoDate, li.MsoDate, div.MsoDate
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 a:link, span.MsoHyperlink
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	color:#0070C0;
 	mso-themecolor:hyperlink;
 	text-decoration:underline;
@@ -1646,6 +1647,7 @@ span.Heading1Char
 	mso-bidi-font-weight:normal;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:1;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -2206,34 +2208,33 @@ p.Style1, li.Style1, div.Style1
 	font-family:"Verdana",sans-serif;
 	mso-fareast-font-family:Calibri;
 	mso-bidi-font-family:Calibri;}
-span.TitleChar
-	{mso-style-name:"Title Char";
-	mso-style-priority:10;
+span.Style2Char
+	{mso-style-name:"Style2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:1;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
-	mso-style-link:Title;
-	mso-ansi-font-size:21.0pt;
-	color:#125F5B;
-	mso-themecolor:accent1;
-	font-weight:bold;
-	mso-bidi-font-weight:normal;}
-span.k
-	{mso-style-name:k;
-	mso-style-unhide:no;}
-span.o
-	{mso-style-name:o;
-	mso-style-unhide:no;}
-span.n
-	{mso-style-name:n;
-	mso-style-unhide:no;}
-span.err
-	{mso-style-name:err;
-	mso-style-unhide:no;}
-span.p
-	{mso-style-name:p;
-	mso-style-unhide:no;}
+	mso-style-parent:"Custom Char";
+	mso-style-link:Style2;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Candara",sans-serif;
+	mso-ascii-font-family:Candara;
+	mso-ascii-theme-font:major-latin;
+	mso-hansi-font-family:Candara;
+	mso-hansi-theme-font:major-latin;
+	color:#F46F2C;
+	mso-themecolor:accent4;
+	mso-themeshade:191;
+	mso-style-textfill-fill-color:#F46F2C;
+	mso-style-textfill-fill-themecolor:accent4;
+	mso-style-textfill-fill-alpha:100.0%;
+	mso-style-textfill-fill-colortransforms:lumm=75000;
+	mso-fareast-language:ZH-CN;
+	font-weight:bold;}
 p.Style2, li.Style2, div.Style2
 	{mso-style-name:Style2;
+	mso-style-noshow:yes;
 	mso-style-priority:1;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
@@ -2270,8 +2271,22 @@ p.Style2, li.Style2, div.Style2
 	mso-style-textfill-fill-colortransforms:lumm=75000;
 	mso-fareast-language:ZH-CN;
 	font-weight:bold;}
+span.Style4Char
+	{mso-style-name:"Style4 Char";
+	mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"Style1 Char";
+	mso-style-link:Style4;
+	mso-ansi-font-size:9.0pt;
+	font-family:"Verdana",sans-serif;
+	mso-ascii-font-family:Verdana;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Verdana;
+	mso-bidi-font-family:Calibri;}
 p.Style4, li.Style4, div.Style4
 	{mso-style-name:Style4;
+	mso-style-noshow:yes;
 	mso-style-priority:1;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
@@ -2288,54 +2303,42 @@ p.Style4, li.Style4, div.Style4
 	font-family:"Verdana",sans-serif;
 	mso-fareast-font-family:Calibri;
 	mso-bidi-font-family:Calibri;}
-span.Style2Char
-	{mso-style-name:"Style2 Char";
-	mso-style-priority:1;
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-priority:10;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
-	mso-style-parent:"Custom Char";
-	mso-style-link:Style2;
-	mso-ansi-font-size:16.0pt;
-	mso-bidi-font-size:16.0pt;
-	font-family:"Candara",sans-serif;
-	mso-ascii-font-family:Candara;
-	mso-ascii-theme-font:major-latin;
-	mso-hansi-font-family:Candara;
-	mso-hansi-theme-font:major-latin;
-	color:#F46F2C;
-	mso-themecolor:accent4;
-	mso-themeshade:191;
-	mso-style-textfill-fill-color:#F46F2C;
-	mso-style-textfill-fill-themecolor:accent4;
-	mso-style-textfill-fill-alpha:100.0%;
-	mso-style-textfill-fill-colortransforms:lumm=75000;
-	mso-fareast-language:ZH-CN;
-	font-weight:bold;}
+	mso-style-link:Title;
+	mso-ansi-font-size:21.0pt;
+	color:#125F5B;
+	mso-themecolor:accent1;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.k
+	{mso-style-name:k;
+	mso-style-unhide:no;}
+span.o
+	{mso-style-name:o;
+	mso-style-unhide:no;}
+span.n
+	{mso-style-name:n;
+	mso-style-unhide:no;}
+span.err
+	{mso-style-name:err;
+	mso-style-unhide:no;}
+span.p
+	{mso-style-name:p;
+	mso-style-unhide:no;}
 span.mwe-math-mathml-inline
 	{mso-style-name:mwe-math-mathml-inline;
 	mso-style-unhide:no;}
-span.Style4Char
-	{mso-style-name:"Style4 Char";
-	mso-style-priority:1;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"Style1 Char";
-	mso-style-link:Style4;
-	mso-ansi-font-size:9.0pt;
-	font-family:"Verdana",sans-serif;
-	mso-ascii-font-family:Verdana;
-	mso-fareast-font-family:Calibri;
-	mso-hansi-font-family:Verdana;
-	mso-bidi-font-family:Calibri;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
 	font-size:14.0pt;
 	mso-ansi-font-size:14.0pt;
 	mso-bidi-font-size:14.0pt;
+	font-family:"Candara",sans-serif;
 	mso-ascii-font-family:Candara;
 	mso-ascii-theme-font:minor-latin;
 	mso-fareast-font-family:Candara;
@@ -3574,11 +3577,11 @@ and inflict harm to data and/or people in multiple ways.</p>
 
 <p class=Style1><o:p>&nbsp;</o:p></p>
 
-<p class=Style1>Malware (a portmanteau for malicious software) is any software intentionally
-designed to cause damage to a computer, server, client, or computer network (by
-contrast, software that causes unintentional harm due to some deficiency is
-typically described as a software bug). A wide variety of malware types exist,
-including computer <b>viruses</b>,<b> worms</b>, <b>Trojan horses</b>,<b>
+<p class=Style1>Malware (a portmanteau for malicious software) is any software
+intentionally designed to cause damage to a computer, server, client, or computer
+network (by contrast, software that causes unintentional harm due to some
+deficiency is typically described as a software bug). A wide variety of malware
+types exist, including computer <b>viruses</b>,<b> worms</b>, <b>Trojan horses</b>,<b>
 adware</b>, <b>Attack Kit</b>, <b>Auto-rooter</b>, <b>Backdoor</b> and <b>Zombie</b>
 etc.</p>
 
@@ -3636,11 +3639,12 @@ style='background:white'><o:p></o:p></span></p>
 
 <p class=Style1><span style='background:white'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>Attack Kit</p>
+<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>Attack
+Kit</p>
 
 <p class=Style1><span style='color:black;mso-color-alt:windowtext;background:
-white'>An exploit kit (Attack Kit) is a programming tool that allows someone
-who does not have any experience writing software code to create, customize and
+white'>An exploit kit (Attack Kit) is a programming tool that allows someone who
+does not have any experience writing software code to create, customize and
 distribute malware. Exploit kits are known by a number of other names,
 including infection kit, crimeware kit, DIY attack kit and malware toolkit.</span></p>
 
@@ -3656,13 +3660,12 @@ building botnets.</span><span style='background:white'><o:p></o:p></span></p>
 
 <p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>Auto-Rooter</p>
 
-<p class=Style1><span class=SpellE><b><span style='color:black;mso-color-alt:
-windowtext;background:white'>LevelDropper</span></b></span><span
-style='color:black;mso-color-alt:windowtext;background:white'> as <b>auto-rooting</b>
-malware, as it silently roots a device in order to gain system level
-privileges. This allows it to perform actions off-limits to most apps and to
-effectively take control of the infected device, bypassing many of Android's
-built-in security protections.</span></p>
+<p class=Style1><b><span style='color:black;mso-color-alt:windowtext;
+background:white'>LevelDropper</span></b><span style='color:black;mso-color-alt:
+windowtext;background:white'> as <b>auto-rooting</b> malware, as it silently
+roots a device in order to gain system level privileges. This allows it to
+perform actions off-limits to most apps and to effectively take control of the
+infected device, bypassing many of Android's built-in security protections.</span></p>
 
 <p class=Style1><span style='background:white'><o:p>&nbsp;</o:p></span></p>
 
@@ -3693,10 +3696,10 @@ bold'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>
 
 <span style='mso-bookmark:fw'></span>
 
-<p class=Style1>A Firewall is a network security system that monitors and
-controls incoming and outgoing network traffic based on predetermined security
-rules. A firewall typically establishes a barrier between a trusted network and
-an untrusted network.</p>
+<p class=Style1>A Firewall is a network security system that monitors and controls
+incoming and outgoing network traffic based on predetermined security rules. A
+firewall typically establishes a barrier between a trusted network and an
+untrusted network.</p>
 
 <p class=Style1><o:p>&nbsp;</o:p></p>
 
@@ -3794,8 +3797,8 @@ the name “application-level gateway.<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:110%;font-family:
 "Verdana",sans-serif;mso-fareast-font-family:Calibri;mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>What is difference
-between outbound TCP connections and inbound TCP connections?</p>
+<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>What is
+difference between outbound TCP connections and inbound TCP connections?</p>
 
 <p class=Custom style='text-indent:0in;mso-list:none'><o:p>&nbsp;</o:p></p>
 
@@ -3859,11 +3862,8 @@ program may write the excess data past the buffer boundary.</p>
 <p class=Style1><o:p>&nbsp;</o:p></p>
 
 <p class=Style1><span class=Style2Char><span style='font-size:16.0pt'>Interpretation
-of Program Input?</span></span> (ye topic <span class=SpellE>mjhy</span> clear <span
-class=SpellE>ni</span> <span class=SpellE>hy</span> is <span class=SpellE>liye</span>
-<span class=SpellE>ni</span> <span class=SpellE>likha</span> khud <span
-class=SpellE>dekhna</span> <span class=SpellE>chahen</span> to slide # 18 par <span
-class=SpellE>dekh</span> <span class=SpellE>len</span>)</p>
+of Program Input?</span></span> (ye topic mjhy clear ni hy is liye ni likha
+khud dekhna chahen to slide # 18 par dekh len)</p>
 
 <p class=Style1><o:p>&nbsp;</o:p></p>
 
@@ -3885,8 +3885,8 @@ lumm=75000'><span style='color:windowtext'>Feistel Cipher<o:p></o:p></span></spa
 <p class=Style4>A <b>Feistel network</b> uses a round function, a function
 which takes two inputs, a <i>data block</i> and a <i>subkey</i>, and returns
 one output the same size as the data block. In each round, the round function
-is run on half of the data to be encrypted and its output is XORed with the other
-half of the data. This is repeated a fixed number of times, and the final
+is run on half of the data to be encrypted and its output is XORed with the
+other half of the data. This is repeated a fixed number of times, and the final
 output is the encrypted data.</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
@@ -3899,23 +3899,23 @@ output is the encrypted data.</p>
 mso-themeshade:191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
 accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
 lumm=75000'>F</span> be the round function and let <span style='font-family:
-Consolas;color:red'>K<sub>0</sub>,K<sub>1</sub>,....,<span class=SpellE>K<sub>n</sub></span>
-</span>be the sub-keys for the rounds <span style='font-family:Consolas;
-color:red'>0,1,....,n</span><span style='color:red'> </span>respectively.<o:p></o:p></p>
+Consolas;color:red'>K<sub>0</sub>,K<sub>1</sub>,....,K<sub>n</sub> </span>be
+the sub-keys for the rounds <span style='font-family:Consolas;color:red'>0,1,....,n</span><span
+style='color:red'> </span>respectively.</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
-<p class=Style4>Then the basic operation is as follows:<o:p></o:p></p>
+<p class=Style4>Then the basic operation is as follows:</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
 <p class=Style4>Split the plaintext block into two equal pieces, <span
-style='color:red'>(L<sub>0</sub>, R<sub>0</sub>)</span><o:p></o:p></p>
+style='color:red'>(L<sub>0</sub>, R<sub>0</sub>)</span></p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
 <p class=Style4>For each round <span style='font-family:Consolas;color:red'>i =
-0,1,....,n,</span><span style='color:red'> </span>compute.<o:p></o:p></p>
+0,1,....,n,</span><span style='color:red'> </span>compute.</p>
 
 <p class=Style4 style='text-indent:.5in'><span style='color:red'>L<sub>i+1</sub>
 = R<sub>i </sub><o:p></o:p></span></p>
@@ -3947,8 +3947,8 @@ style='color:red'>i = n, n-1, ...., 0.</span><o:p></o:p></span></p>
 <p class=Style4 style='text-indent:.5in'><span style='color:red'>R<sub>i</sub>
 = L<sub>i+1 </sub><o:p></o:p></span></p>
 
-<p class=Style4><span style='color:red'><span style='mso-tab-count:1'>       </span>L<sub>i
-<span style='mso-spacerun:yes'> </span></sub>= R<sub>i+1</sub> </span><span
+<p class=Style4><span style='color:red'><span style='mso-tab-count:1'>       </span>L<sub>i<span
+style='mso-spacerun:yes'>  </span></sub>= R<sub>i+1</sub> </span><span
 style='font-family:Symbol;mso-ascii-font-family:Verdana;mso-hansi-font-family:
 Verdana;mso-bidi-language:ER;mso-char-type:symbol;mso-symbol-font-family:Symbol'><span
 style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>Å</span></span><span
@@ -3958,7 +3958,7 @@ K<sub>i</sub>).<o:p></o:p></span></p>
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
 <p class=Style4>Then <span style='color:red'>(L<sub>0</sub>, R<sub>0</sub>)</span>
-is the plaintext again.<o:p></o:p></p>
+is the plaintext again.</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
@@ -3968,7 +3968,11 @@ between encryption and decryption.</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
-<p class=Style4>[<span class=SpellE><a href="source/image1.png">Example_Image</a></span>]</p>
+<p class=Style4>&lt;img src=”source/image1.png” /&gt;</p>
+
+<p class=Style4><o:p>&nbsp;</o:p></p>
+
+<p class=Style4>[<a href="source/image1.png" target="_blank">Example_Image</a>]</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
@@ -3976,7 +3980,7 @@ between encryption and decryption.</p>
 text-indent:0in;mso-list:none'><o:p>&nbsp;</o:p></p>
 
 <p class=Custom align=center style='margin-left:0in;text-align:center;
-text-indent:0in;mso-list:none'><span class=SpellE>Contniue</span>…</p>
+text-indent:0in;mso-list:none'>Contniue…</p>
 
 <p class=Style4><o:p>&nbsp;</o:p></p>
 
