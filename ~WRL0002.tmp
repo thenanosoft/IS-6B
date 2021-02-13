@@ -33,10 +33,10 @@ w\:* {behavior:url(#default#VML);}
   <o:RemoveDateAndTime/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="index_files/item0011.xml"
-target="index_files/props012.xml">
-<link rel=dataStoreItem href="index_files/item0013.xml"
-target="index_files/props014.xml">
+<link rel=dataStoreItem href="index_files/item0010.xml"
+target="index_files/props011.xml">
+<link rel=dataStoreItem href="index_files/item0012.xml"
+target="index_files/props013.xml">
 <link rel=themeData href="index_files/themedata.thmx">
 <link rel=colorSchemeMapping href="index_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
@@ -648,7 +648,7 @@ target="index_files/props014.xml">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;
 	mso-font-src:1;}
 @font-face
 	{font-family:Calibri;
@@ -656,7 +656,7 @@ target="index_files/props014.xml">
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-520092929 1073786111 9 0 415 0;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;
 	mso-font-src:2;}
 @font-face
 	{font-family:Verdana;
@@ -682,14 +682,6 @@ target="index_files/props014.xml">
 	mso-font-pitch:variable;
 	mso-font-signature:-1610611985 1073783883 0 0 415 0;
 	mso-font-src:5;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:modern;
-	mso-font-pitch:fixed;
-	mso-font-signature:-536869121 64767 1 0 415 0;
-	mso-font-src:6;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-priority:1;
@@ -744,7 +736,8 @@ h1
 	font-weight:bold;
 	mso-bidi-font-weight:normal;}
 h2
-	{mso-style-priority:1;
+	{mso-style-noshow:yes;
+	mso-style-priority:1;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	margin-top:.25in;
@@ -1412,7 +1405,8 @@ p.MsoDate, li.MsoDate, div.MsoDate
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 a:link, span.MsoHyperlink
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	color:#0070C0;
 	mso-themecolor:hyperlink;
 	text-decoration:underline;
@@ -1647,6 +1641,7 @@ span.Heading1Char
 	mso-bidi-font-weight:normal;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:1;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -2233,107 +2228,9 @@ span.err
 span.p
 	{mso-style-name:p;
 	mso-style-unhide:no;}
-p.Style2, li.Style2, div.Style2
-	{mso-style-name:Style2;
-	mso-style-priority:1;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:Custom;
-	mso-style-link:"Style2 Char";
-	margin-top:0in;
-	margin-right:.5in;
-	margin-bottom:12.0pt;
-	margin-left:.5in;
-	text-align:justify;
-	text-indent:-.25in;
-	line-height:normal;
-	mso-pagination:widow-orphan;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	mso-list:l6 level1 lfo5;
-	tab-stops:.5in 59.95pt;
-	font-size:16.0pt;
-	font-family:"Candara",sans-serif;
-	mso-ascii-font-family:Candara;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:Candara;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Candara;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	color:#F46F2C;
-	mso-themecolor:accent4;
-	mso-themeshade:191;
-	mso-style-textfill-fill-color:#F46F2C;
-	mso-style-textfill-fill-themecolor:accent4;
-	mso-style-textfill-fill-alpha:100.0%;
-	mso-style-textfill-fill-colortransforms:lumm=75000;
-	mso-fareast-language:ZH-CN;
-	font-weight:bold;}
-p.Style4, li.Style4, div.Style4
-	{mso-style-name:Style4;
-	mso-style-priority:1;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:Style1;
-	mso-style-link:"Style4 Char";
-	margin-top:0in;
-	margin-right:.5in;
-	margin-bottom:0in;
-	margin-left:0in;
-	line-height:normal;
-	mso-pagination:none;
-	text-autospace:none;
-	font-size:14.0pt;
-	font-family:"Verdana",sans-serif;
-	mso-fareast-font-family:Calibri;
-	mso-bidi-font-family:Calibri;}
-span.Style2Char
-	{mso-style-name:"Style2 Char";
-	mso-style-priority:1;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"Custom Char";
-	mso-style-link:Style2;
-	mso-ansi-font-size:16.0pt;
-	mso-bidi-font-size:16.0pt;
-	font-family:"Candara",sans-serif;
-	mso-ascii-font-family:Candara;
-	mso-ascii-theme-font:major-latin;
-	mso-hansi-font-family:Candara;
-	mso-hansi-theme-font:major-latin;
-	color:#F46F2C;
-	mso-themecolor:accent4;
-	mso-themeshade:191;
-	mso-style-textfill-fill-color:#F46F2C;
-	mso-style-textfill-fill-themecolor:accent4;
-	mso-style-textfill-fill-alpha:100.0%;
-	mso-style-textfill-fill-colortransforms:lumm=75000;
-	mso-fareast-language:ZH-CN;
-	font-weight:bold;}
-span.mwe-math-mathml-inline
-	{mso-style-name:mwe-math-mathml-inline;
-	mso-style-unhide:no;}
-span.Style4Char
-	{mso-style-name:"Style4 Char";
-	mso-style-priority:1;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"Style1 Char";
-	mso-style-link:Style4;
-	mso-ansi-font-size:9.0pt;
-	font-family:"Verdana",sans-serif;
-	mso-ascii-font-family:Verdana;
-	mso-fareast-font-family:Calibri;
-	mso-hansi-font-family:Verdana;
-	mso-bidi-font-family:Calibri;}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -2968,7 +2865,7 @@ div.WordSection1
 @list l6
 	{mso-list-id:1795169633;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-1361797636 1028453988 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	mso-list-template-ids:1329262564 -1522134224 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
 @list l6:level1
 	{mso-level-number-format:bullet;
 	mso-level-style-link:Custom;
@@ -3329,39 +3226,6 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span
 dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
 191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
 accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-lumm=75000'><a href="#Fc"><span style='color:#F46F2C;mso-themecolor:accent4;
-mso-themeshade:191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
-accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-lumm=75000;text-decoration:none;text-underline:none'><span style='color:windowtext'>Feistel
-Cipher</span></span></a></span><span style='color:#F46F2C;mso-themecolor:accent4;
-mso-themeshade:191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
-accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-lumm=75000'><o:p></o:p></span></h2>
-
-<h2 style='margin-top:0in;margin-right:.5in;margin-bottom:0in;margin-left:.5in;
-text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo5'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#F46F2C;mso-themecolor:accent4;mso-themeshade:191;mso-style-textfill-fill-color:
-#F46F2C;mso-style-textfill-fill-themecolor:accent4;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:lumm=75000;font-weight:normal;
-mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
-191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
-accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-lumm=75000'><span style='color:windowtext'>Feistel Cipher for DES &amp; 3DES<o:p></o:p></span></span></h2>
-
-<h2 style='margin-top:0in;margin-right:.5in;margin-bottom:0in;margin-left:.5in;
-text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo5'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#F46F2C;mso-themecolor:accent4;mso-themeshade:191;mso-style-textfill-fill-color:
-#F46F2C;mso-style-textfill-fill-themecolor:accent4;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:lumm=75000;font-weight:normal;
-mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
-191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
-accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
 lumm=75000'><span style='color:windowtext'>Cipher Block Modes -1<o:p></o:p></span></span></h2>
 
 <h2 style='margin-top:0in;margin-right:.5in;margin-bottom:0in;margin-left:.5in;
@@ -3375,10 +3239,37 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span
 dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
 191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
 accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-lumm=75000'><span style='color:windowtext'>Cipher Block Modes -2 <o:p></o:p></span></span></h2>
+lumm=75000'><span style='color:windowtext'>Cipher Block Modes -2<o:p></o:p></span></span></h2>
+
+<h2 style='margin-top:0in;margin-right:.5in;margin-bottom:0in;margin-left:.5in;
+text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo5'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:#F46F2C;mso-themecolor:accent4;mso-themeshade:191;mso-style-textfill-fill-color:
+#F46F2C;mso-style-textfill-fill-themecolor:accent4;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000;font-weight:normal;
+mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span style='color:windowtext'>Feistel Cipher<o:p></o:p></span></span></h2>
 
 <div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.5pt;
 padding:0in 0in 1.0pt 0in;margin-left:.25in;margin-right:.5in'>
+
+<h2 style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo5;border:none;
+mso-border-bottom-alt:solid windowtext 1.5pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:#F46F2C;mso-themecolor:accent4;mso-themeshade:191;mso-style-textfill-fill-color:
+#F46F2C;mso-style-textfill-fill-themecolor:accent4;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000;font-weight:normal;
+mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
+191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
+accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span style='color:windowtext'>Feistel Cipher for DES &amp; 3DES <o:p></o:p></span></span></h2>
 
 <h2 style='margin:0in;line-height:normal;border:none;mso-border-bottom-alt:
 solid windowtext 1.5pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><span
@@ -3578,13 +3469,13 @@ and inflict harm to data and/or people in multiple ways.</p>
 
 <p class=Style1><o:p>&nbsp;</o:p></p>
 
-<p class=Style1>Malware (a portmanteau for malicious software) is any software intentionally
-designed to cause damage to a computer, server, client, or computer network (by
-contrast, software that causes unintentional harm due to some deficiency is
-typically described as a software bug). A wide variety of malware types exist,
-including computer <b>viruses</b>,<b> worms</b>, <b>Trojan horses</b>,<b>
-adware</b>, <b>Attack Kit</b>, <b>Auto-rooter</b>, <b>Backdoor</b> and <b>Zombie</b>
-etc.</p>
+<p class=Style1>Malware (a portmanteau for malicious software) is any software
+intentionally designed to cause damage to a computer, server, client, or
+computer network (by contrast, software that causes unintentional harm due to
+some deficiency is typically described as a software bug). A wide variety of
+malware types exist, including computer <b>viruses</b>,<b> worms</b>, <b>Trojan
+horses</b>,<b> adware</b>, <b>Attack Kit</b>, <b>Auto-rooter</b>, <b>Backdoor</b>
+and <b>Zombie</b> etc.</p>
 
 <p class=Style1><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
 191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
@@ -3640,7 +3531,8 @@ style='background:white'><o:p></o:p></span></p>
 
 <p class=Style1><span style='background:white'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>Attack Kit</p>
+<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>Attack
+Kit</p>
 
 <p class=Style1><span style='color:black;mso-color-alt:windowtext;background:
 white'>An exploit kit (Attack Kit) is a programming tool that allows someone
@@ -3798,8 +3690,8 @@ the name “application-level gateway.<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:110%;font-family:
 "Verdana",sans-serif;mso-fareast-font-family:Calibri;mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>What is difference
-between outbound TCP connections and inbound TCP connections?</p>
+<p class=Custom style='margin-left:0in;text-indent:0in;mso-list:none'>What is
+difference between outbound TCP connections and inbound TCP connections?</p>
 
 <p class=Custom style='text-indent:0in;mso-list:none'><o:p>&nbsp;</o:p></p>
 
@@ -3828,10 +3720,10 @@ you will tell Windows Firewall that it's allowed.<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:14.0pt;line-height:110%;font-family:
 "Verdana",sans-serif;mso-fareast-font-family:Calibri;mso-bidi-font-family:Calibri'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Style2 style='mso-list:l6 level1 lfo5'><a name=ss><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;font-weight:normal;mso-bidi-font-weight:bold'><span style='mso-list:
-Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p class=Custom style='margin-bottom:12.0pt;mso-list:l6 level1 lfo5'><a
+name=ss><![if !supportLists]><span style='font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;font-weight:normal;mso-bidi-font-weight:
+bold'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span dir=LTR></span>Software Security</a></p>
 
 <span style='mso-bookmark:ss'></span>
@@ -3843,288 +3735,7 @@ provide <b>integrity</b>, <b>authentication</b> and <b>availability</b>.</p>
 
 <p class=Style1><o:p>&nbsp;</o:p></p>
 
-<p class=Style2 style='margin-left:0in;text-indent:0in;mso-list:none'>Input
-Size &amp; Buffer Overflow</p>
-
-<p class=Style4>Buffers are memory storage regions that temporarily hold data
-while it is being transferred from one location to another. A buffer overflow
-(or buffer overrun) occurs when the volume of data exceeds the storage capacity
-of the memory buffer.</p>
-
-<p class=Style1><b><o:p>&nbsp;</o:p></b></p>
-
-<p class=Style1><b>For example</b>, a buffer for log-in credentials may be
-designed to expect username and password inputs of 8 bytes, so if a transaction
-involves an input of 10 bytes (that is, 2 bytes more than expected), the
-program may write the excess data past the buffer boundary.</p>
-
 <p class=Style1><o:p>&nbsp;</o:p></p>
-
-<p class=Style1><o:p>&nbsp;</o:p></p>
-
-<p class=Style1><span class=Style2Char><span style='font-size:16.0pt'>Interpretation
-of Program Input?</span></span> (ye topic <span class=SpellE>mjhy</span> clear <span
-class=SpellE>ni</span> <span class=SpellE>hy</span> is <span class=SpellE>liye</span>
-<span class=SpellE>ni</span> <span class=SpellE>likha</span> khud <span
-class=SpellE>dekhna</span> <span class=SpellE>chahen</span> to slide # 18 par <span
-class=SpellE>dekh</span> <span class=SpellE>len</span>)</p>
-
-<p class=Style1><o:p>&nbsp;</o:p></p>
-
-<h2 style='margin-top:0in;margin-right:.5in;margin-bottom:12.0pt;margin-left:
-.5in;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo5'><a name=Fc><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;color:#F46F2C;mso-themecolor:accent4;mso-themeshade:191;mso-style-textfill-fill-color:
-#F46F2C;mso-style-textfill-fill-themecolor:accent4;mso-style-textfill-fill-alpha:
-100.0%;mso-style-textfill-fill-colortransforms:lumm=75000;font-weight:normal;
-mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-dir=LTR></span><span style='color:#F46F2C;mso-themecolor:accent4;mso-themeshade:
-191;mso-style-textfill-fill-color:#F46F2C;mso-style-textfill-fill-themecolor:
-accent4;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
-lumm=75000'><span style='color:windowtext'>Feistel Cipher<o:p></o:p></span></span></a></h2>
-
-<span style='mso-bookmark:Fc'></span>
-
-<p class=Style4>A <b>Feistel network</b> uses a round function, a function
-which takes two inputs, a <i>data block</i> and a <i>subkey</i>, and returns
-one output the same size as the data block. In each round, the round function
-is run on half of the data to be encrypted and its output is XORed with the other
-half of the data. This is repeated a fixed number of times, and the final
-output is the encrypted data.</p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Style4><v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
- o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_169" o:spid="_x0000_s1029" type="#_x0000_t75"
- style='position:absolute;margin-left:332.05pt;margin-top:3254.95pt;width:383.25pt;
- height:448.5pt;z-index:-251652096;visibility:visible;mso-wrap-style:square;
- mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
- mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
- mso-position-horizontal:right;mso-position-horizontal-relative:text;
- mso-position-vertical:absolute;mso-position-vertical-relative:text;
- mso-height-percent:0;mso-height-relative:margin'>
- <v:imagedata src="index_files/image001.png" o:title=""/>
- <w:wrap type="square"/>
-</v:shape></p>
-
-<p class=Style4><b>Example:<o:p></o:p></b></p>
-
-<p class=Style4>Let ‘F’ be the round function and let <span style='font-family:
-Consolas;color:red'>K<span class=GramE><sub>0</sub>,K</span><sub>1</sub>,....,<span
-class=SpellE>K<sub>n</sub></span> </span>be the sub-keys for the rounds <span
-style='font-family:Consolas;color:red'>0,1,....,n</span><span style='color:
-red'> </span>respectively.<o:p></o:p></p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Style4>Then the basic operation is as follows:<o:p></o:p></p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Style4>Split the plaintext block into two equal pieces, <span
-style='color:red'>(L<sub>0</sub>, R<sub>0</sub>)</span><o:p></o:p></p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Style4>For each round <span style='font-family:Consolas;color:red'>i =
-<span class=GramE>0,1,...</span>.,n,</span><span style='color:red'> </span>compute.<o:p></o:p></p>
-
-<p class=Style4 style='text-indent:.5in'><span style='color:red'>L<sub>i+1</sub>
-= R<sub>i </sub><o:p></o:p></span></p>
-
-<p class=Style4><v:shapetype id="_x0000_t124" coordsize="21600,21600" o:spt="124"
- path="m10800,qx,10800,10800,21600,21600,10800,10800,xem,10800nfl21600,10800em10800,nfl10800,21600e">
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="custom"
-  o:connectlocs="10800,0;3163,3163;0,10800;3163,18437;10800,21600;18437,18437;21600,10800;18437,3163"
-  textboxrect="3163,3163,18437,18437"/>
-</v:shapetype><v:shape id="Flowchart_x003a__x0020_Or_x0020_218" o:spid="_x0000_s1028"
- type="#_x0000_t124" style='position:absolute;margin-left:96pt;margin-top:4.5pt;
- width:10.8pt;height:10.8pt;z-index:251659264;visibility:visible;
- mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;
- mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
- mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
- mso-position-horizontal-relative:text;mso-position-vertical:absolute;
- mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
- mso-width-relative:margin;mso-height-relative:margin;v-text-anchor:middle'
- o:gfxdata="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
-" fillcolor="white [3201]" strokecolor="#235f62 [3209]" strokeweight="1pt">
- <v:stroke joinstyle="miter"/>
-</v:shape><span style='color:red'><span style='mso-tab-count:1'>       </span>R<sub>i+1
-</sub>= L<sub>i</sub> <span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'>  </span><span class=GramE>F(</span></span><span
-style='color:red;mso-bidi-language:ER'>R<sub>i</sub>, K<sub>i</sub>).<o:p></o:p></span></p>
-
-<p class=Style4><span style='mso-bidi-language:ER'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Style4><v:shape id="Flowchart_x003a__x0020_Or_x0020_225" o:spid="_x0000_s1027"
- type="#_x0000_t124" style='position:absolute;margin-left:47.25pt;margin-top:4.05pt;
- width:10.8pt;height:10.8pt;z-index:251661312;visibility:visible;
- mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;
- mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
- mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
- mso-position-horizontal-relative:text;mso-position-vertical:absolute;
- mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
- mso-width-relative:margin;mso-height-relative:margin;v-text-anchor:middle'
- o:gfxdata="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
-" fillcolor="white [3201]" strokecolor="#235f62 [3209]" strokeweight="1pt">
- <v:stroke joinstyle="miter"/>
-</v:shape><span style='mso-bidi-language:ER'>Where <span
-style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span>means<b>
-XOR</b>. Then the ciphertext is </span><span style='color:red'>(</span><span
-style='color:red;mso-bidi-language:ER'>R<sub>n+1</sub>, L<sub>n+1</sub>).</span><span
-style='mso-bidi-language:ER'><o:p></o:p></span></p>
-
-<p class=Style4><span style='color:red;mso-bidi-language:ER'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Style4>Decryption of a <span style='color:red'>(</span><span
-style='color:red;mso-bidi-language:ER'>R<sub>n+1</sub>, L<sub>n+1</sub>) </span><span
-style='mso-bidi-language:ER'>is accomplished by computing for I = n, n-1, ....,
-0.<o:p></o:p></span></p>
-
-<p class=Style4 style='text-indent:.5in'><span style='color:red'>R<sub>i</sub>
-= L<sub>i+1 </sub><o:p></o:p></span></p>
-
-<p class=Style4><v:shape id="Flowchart_x003a__x0020_Or_x0020_226" o:spid="_x0000_s1026"
- type="#_x0000_t124" style='position:absolute;margin-left:96pt;margin-top:4.5pt;
- width:10.8pt;height:10.8pt;z-index:251663360;visibility:visible;
- mso-wrap-style:square;mso-width-percent:0;mso-height-percent:0;
- mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
- mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
- mso-position-horizontal-relative:text;mso-position-vertical:absolute;
- mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
- mso-width-relative:margin;mso-height-relative:margin;v-text-anchor:middle'
- o:gfxdata="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
-" fillcolor="white [3201]" strokecolor="#235f62 [3209]" strokeweight="1pt">
- <v:stroke joinstyle="miter"/>
-</v:shape><span style='color:red'><span style='mso-tab-count:1'>       </span><span
-class=GramE>L<sub>i <span style='mso-spacerun:yes'> </span></sub>=</span> R<sub>i+1</sub>
-<span style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span>F(</span><span
-style='color:red;mso-bidi-language:ER'>L<sub>i+1</sub>, K<sub>i</sub>).<o:p></o:p></span></p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Style4>Then <span style='color:red'>(L<sub>0</sub>, R<sub>0</sub>)</span>
-is the plaintext again.<o:p></o:p></p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Style4>The diagram illustrates both encryption and decryption. Note
-the reversal of the subkey order for decryption; this is the only difference
-between encryption and decryption.</p>
-
-<p class=Style4><o:p>&nbsp;</o:p></p>
-
-<p class=Custom align=center style='margin-left:0in;text-align:center;
-text-indent:0in;mso-list:none'><o:p>&nbsp;</o:p></p>
 
 <p class=Custom align=center style='margin-left:0in;text-align:center;
 text-indent:0in;mso-list:none'><span class=SpellE>Contniue</span>…</p>
